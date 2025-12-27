@@ -29,10 +29,9 @@ Check out the live version of my portfolio here:
 
 ## 📬 Contact Me
 I'm always open to discussing new projects, creative ideas, or opportunities in the tech world.
-
-* **Telegram:** [@MPM227](https://t.me/MPM227)
-* **GitHub:** [MPMotorobot](https://github.com/MPMotorobot)
-* **Email:** mpmotorobot0@gmail.com
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MPM227)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MPMotorobot)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mpmotorobot0@gmail.com)
 
 ## 📄 License
 This project is open-source and free to use for learning purposes.
@@ -40,14 +39,15 @@ This project is open-source and free to use for learning purposes.
 ## 📸 Screenshots
 
 ### Desktop Version
-![Main Page Desktop](image/ss1.png)
-![Main Page Desktop](image/ss2.png)
-![Main Page Desktop effects](image/ss3.png)
+![Main Page Desktop - Hero Section](image/ss1.png)
+![Main Page Desktop - Skills](image/ss2.png)
+![Main Page Desktop - Interactive Cards](image/ss3.png)
 
 ### Mobile Version
 <p align="left">
   <img src="image/ssph1.png" width="300" title="Mobile View-Menu Black">
   <img src="image/ssph2.png" width="300" title="Mobile View-Menu White">
 </p>
----
+
+
 *Created with ❤️ by Yevhenii Yelisieiev — 2025*
