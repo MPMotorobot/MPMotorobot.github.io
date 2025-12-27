@@ -28,7 +28,6 @@ Check out the live version of my portfolio here:
 👉 **[VIEW LIVE PROJECT](https://mpmotorobot.github.io/)**
 
 ## 📬 Contact Me
-I'm always open to discussing new projects, creative ideas, or opportunities in the tech world.
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MPM227)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MPMotorobot)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mpmotorobot0@gmail.com)
@@ -51,3 +50,4 @@ This project is open-source and free to use for learning purposes.
 
 
 *Created with ❤️ by Yevhenii Yelisieiev — 2025*
+
