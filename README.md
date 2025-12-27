@@ -37,5 +37,4 @@ I'm always open to discussing new projects, creative ideas, or opportunities in 
 ## 📄 License
 This project is open-source and free to use for learning purposes.
 ---
-
 *Created with ❤️ by Yevhenii Yelisieiev — 2025*
