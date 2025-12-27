@@ -82,10 +82,10 @@ header {
     transform: skew(-25deg);
     transition: 0.7s;
 }
-.resume::before:hover{
+.resume:hover::before{
     left: 150%;
 }
-.resume::after{
+ /* .resume::after{
     content: '';
     position: absolute;
     top: 0; left: -100%;
@@ -95,7 +95,7 @@ header {
 }
 .resume:hover::after{
     left: 100%;
-}
+}  */
 .menu-toggle{
     display: none;
     flex-direction: column;
