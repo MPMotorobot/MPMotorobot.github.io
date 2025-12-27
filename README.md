@@ -36,11 +36,18 @@ I'm always open to discussing new projects, creative ideas, or opportunities in 
 
 ## 📄 License
 This project is open-source and free to use for learning purposes.
-## Screen Shoot
-(image/ss1.png)
-(image/ss2.png)
-(image/ss3.png)
-(image/ssph1.png)
-(image/ssph2.png)
+---
+## 📸 Screenshots
+
+### Desktop Version
+![Main Page Desktop](image/ss1.png)
+![Main Page Desktop](image/ss2.png)
+![Main Page Desktop effects](image/ss3.png)
+
+### Mobile Version
+<p align="left">
+  <img src="image/ssph1.png" width="300" title="Mobile View-Menu Black">
+  <img src="image/ssph2.png" width="300" title="Mobile View-Menu White">
+</p>
 ---
 *Created with ❤️ by Yevhenii Yelisieiev — 2025*
