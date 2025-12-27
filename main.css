@@ -44,7 +44,7 @@ header {
 }
 .resume{
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     width: 100%;
     padding: 15px 20px;
@@ -79,7 +79,7 @@ header {
         rgba(255,255,255,0.4),
         transparent
     );
-    transform: skew(-25deg);
+    transform: skewX(-25deg);
     transition: 0.7s;
 }
 .resume:hover::before{
@@ -359,4 +359,5 @@ main:has(.card:hover) .card:not(:hover){
  footer::before {
     display: none !important;
 }
+
 /* I intentionally excluded footer from scroll-based navigation logic */
