@@ -32,9 +32,10 @@ I'm always open to discussing new projects, creative ideas, or opportunities in 
 
 * **Telegram:** [@MPM227](https://t.me/MPM227)
 * **GitHub:** [MPMotorobot](https://github.com/MPMotorobot)
-* **Email:** tatyanavasilievna1988@gmail.com
+* **Email:** mpmotorobot0@gmail.com
 
 ## 📄 License
 This project is open-source and free to use for learning purposes.
 ---
+
 *Created with ❤️ by Yevhenii Yelisieiev — 2025*
