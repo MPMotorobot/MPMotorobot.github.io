@@ -11,6 +11,8 @@
     --nav-bg: #495047;
     --box-shadow:rgba(0,0,0,0.2);
     --bg-footer: #495057;
+    --resume-btn: #495047;
+    --resume-text: #ffffff;
 }
 body.dark{
     --header-bg: #1a1a1a;
@@ -20,6 +22,8 @@ body.dark{
     --nav-bg: #1a1a1a;
     --box-shadow:rgb(255, 241, 241);
     --bg-footer: #1a1a1a;
+    --resume-btn: #00f0ff;
+    --resume-text: #121212;
 }
 html {
     scroll-behavior: smooth;
@@ -37,6 +41,60 @@ header {
     background-color: var(--header-bg) ;
     color: white;
     padding: 30px 20px;
+}
+.resume{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 20px;
+    background-color: var(--resume-btn);
+    color: var(--resume-text) !important;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
+    border: 2px solid transparent;
+    text-decoration: none !important;
+}
+.resume:hover{
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 25px var(--resume-btn);
+    border-color: var(--resume-text);
+}
+.resume::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(255,255,255,0.4),
+        transparent
+    );
+    transform: skew(-25deg);
+    transition: 0.7s;
+}
+.resume::before:hover{
+    left: 150%;
+}
+.resume::after{
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 100%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+.resume:hover::after{
+    left: 100%;
 }
 .menu-toggle{
     display: none;
