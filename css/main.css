@@ -315,7 +315,7 @@ a:hover {
         align-items: center;
     }
     #skills-circle{
-        transform: scale(1.6);
+        transform: scale(1.4);
         margin-top: 100px;
         margin-right: 70px;
     }
@@ -483,6 +483,7 @@ main:has(.card:hover) .card:not(:hover){
     color: black;
     pointer-events: none;
 }
+
 
 
 
