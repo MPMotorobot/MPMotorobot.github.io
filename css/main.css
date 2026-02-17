@@ -426,7 +426,8 @@ main:has(.card:hover) .card:not(:hover){
     background-color: tomato;
     border-radius: 50%;
     transition: border 0.3s;
-    border: 10px solid var(--bg-color);
+    border: 10px solid var(--card-bg);
     grid-column: 2;
     grid-row: 2;
 }
+
