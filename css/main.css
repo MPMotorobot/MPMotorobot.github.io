@@ -309,6 +309,19 @@ a:hover {
         height: 40px;
         width: auto;
     }
+    .skills-dashboard-wrapper{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+    #skills-circle{
+        transform: scale(1.6);
+        margin-top: 100px;
+        margin-right: 70px;
+    }
+    .dashboard{
+        width: 100%;
+    }
 }
 .gradient-border {
     position: relative;
@@ -470,6 +483,7 @@ main:has(.card:hover) .card:not(:hover){
     color: black;
     pointer-events: none;
 }
+
 
 
 
