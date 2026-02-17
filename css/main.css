@@ -381,12 +381,12 @@ main:has(.card:hover) .card:not(:hover){
 #skills-circle > div > a{
     cursor:default;
     text-decoration: none;
-    color: var(--text-color);
+    color: white;
 }
 #skills-circle > div > a > abbr{
     cursor:default;
     text-decoration: none;
-    color: var(--text-color); 
+    color: white; 
 }
 #left-top{
     width: 100px; 
@@ -430,4 +430,5 @@ main:has(.card:hover) .card:not(:hover){
     grid-column: 2;
     grid-row: 2;
 }
+
 
