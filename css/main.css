@@ -454,7 +454,7 @@ main:has(.card:hover) .card:not(:hover){
     display: flex;
     flex-direction: column;
     gap: 15px;
-    min-width: 200px;
+    min-width: 300px;
 }
 .skill-level > span {
     font-weight: bold;
@@ -483,6 +483,7 @@ main:has(.card:hover) .card:not(:hover){
     color: black;
     pointer-events: none;
 }
+
 
 
 
