@@ -10,15 +10,15 @@
     <meta property="og:description" content="Beginner frontend developer. Skills, projects and contacts.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mpmotorobot.github.io/">
-    <title>Profile frontend developer</title>
+    <title data-i18n="title">Profile frontend developer</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="image/icon.png" type="image/icon">
     <data >
 </head>
 <body>
     <header>
-       <h1>Yelisieiev Yevhenii</h1>
-       <p>Beginner Frontend Developer</p>
+       <h1 data-i18n="myName">Yelisieiev Yevhenii</h1>
+       <p data-i18n="description">Beginner Frontend Developer</p>
     </header>
        <nav class="nav">
             <button class="menu-toggle" id="menu-toggle">
@@ -27,22 +27,30 @@
                 <span></span>
             </button>
             <ul class="nav" id="nav-list">
-                <li id="navabout-me"><a href="#about-me">About me</a></li>
-                <li id="navskills"><a href="#skills">Skills</a></li>
-                <li id="navprojects"><a href="#projects">Projects</a></li>
-                <li id="navcontacs"><a href="#contacts">Contacts</a></li>
+                <li id="navabout-me"><a href="#about-me" data-i18n="nav_about">About me</a></li>
+                <li id="navskills"><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+                <li id="navprojects"><a href="#projects" data-i18n="nav_projects">Projects</a></li>
+                <li id="navcontacs"><a href="#contacts" data-i18n="nav_contacts">Contacts</a></li>
                 <li><button id="theme-toggle">⚫️</button></li>
+                <li>
+                    <select id="language-select">
+                    <option value="ru">Русский</option>
+                    <option value="en">English</option>
+                    <option value="pl">Polski</option>
+                    <option value="ua">Україньська</option>
+                </select>
+                </li>
             </ul>
         </nav>
     <main>
         <div class="content">
         <section class="about-me card gradient-border" id="about-me">
-            <h2>About me</h2>
-            <p>I'm a beginner front-end developer. I study and live in Poland. I'm studying computer science and programming at a technical school. </p>
+            <h2 data-i18n="about_title">About me</h2>
+            <p data-i18n="about_text">I'm a beginner front-end developer. I study and live in Poland. I'm studying computer science and programming at a technical school. </p>
         </section>
         <section class="my-skills card gradient-border" id="skills">
             <article class="skills">
-                <h2>Skills</h2>
+                <h2 data-i18n="skills">Skills</h2>
                 <div class="skills-dashboard-wrapper">
                     <div id="skills-circle">
                         <div id="left-top"><a href="https://uk.wikipedia.org/wiki/HTML" target="_blank"><abbr title="HyperText Markup Language">HTML</abbr></a></div>
@@ -77,32 +85,32 @@
 
             </article>
             <article class="languages">
-            <h2>Languages</h2>
+            <h2 data-i18n="languages">Languages</h2>
             <ul>
-                <li>English <strong>B1</strong></li>
-                <li>Ukrainian <strong>Speaking</strong></li>
-                <li>Polish <strong>Speaking</strong></li>
-                <li>Russian <strong>Speaking</strong></li>
+                <li data-i18n="lang_en">English <strong>B1</strong></li>
+                <li data-i18n="lang_ua">Ukrainian <strong data-i18n="speaking">Speaking</strong></li>
+                <li data-i18n="lang_pl">Polish <strong data-i18n="speaking">Speaking</strong></li>
+                <li data-i18n="lang_ru">Russian <strong data-i18n="speaking">Speaking</strong></li>
             </ul>    
             </article>        
         </section>
         <section class="projects card gradient-border" id="projects">
-            <h2>My Projects</h2>
+            <h2 data-i18n="project_title">My Projects</h2>
             <ol>
-                <li><a href="https://sites.google.com/view/server-maderatorworld" target="_blank">Minecraft Server Website</a></li>
-                <li><a href="#">Site with top's games</a></li>
-                <li><a href="#">Calculator</a></li>
+                <li><a href="https://sites.google.com/view/server-maderatorworld" target="_blank" data-i18n="minecraft">Minecraft Server Website</a></li>
+                <li><a href="#" data-i18n="game">Site with top's games</a></li>
+                <li><a href="#" data-i18n="calculator">Calculator</a></li>
             </ol>
         </section>
         </div>
         <aside class="aside card gradient-border">
-        <p>I live in Częstochowa, Poland. I'm a boxer and go to the gym. I'm 18 years old.</p><a href="docs/YY_eng.pdf" class="resume">My resume</a>
+        <p data-i18n="aside">I live in Częstochowa, Poland. I'm a boxer and go to the gym. I'm 18 years old.</p><a href="docs/YY_eng.pdf" class="resume" data-i18n="resume">My resume</a>
         </aside>
     </main>
 
     
     <footer id="contacts">
-        <p> &copy; 2026 Yelisieiev Yevhenii</p> 
+        <p data-i18n="footer"> &copy;2026 Yelisieiev Yevhenii</p> 
         <div class="contacts">
             <ul>
                 <li><address>
@@ -116,9 +124,11 @@
         </div>
     </footer>
     <script src="js/Script.js"></script>
+    <script src="js/translation.js"></script>
     </body>
 
 </html>
+
 
 
 
