@@ -28,7 +28,8 @@ const translations = {
         calculator: "Calculator",
 
         aside: "I live in Częstochowa, Poland. I'm a boxer and go to the gym. I'm 18 years old.",
-        resume: "My resume"
+        resume: "My resume",
+        footer: "&copy;2026 Yelisieiev Yevhenii"
     },
     ru: {
         title: "Профиль фронтенд-разработчика",
@@ -59,7 +60,8 @@ const translations = {
         calculator: "Калькулятор",
         
         aside: "Я живу в Ченстохове, Польша. Я боксер и хожу в спортзал. Мне 18 лет.",
-        resume: "Моё резюме"
+        resume: "Моё резюме",
+        footer: "&copy;2026 Елисиеев Евгений"
     },
     ua: {
         title: "Профіль фронтенд-розробника",
@@ -90,7 +92,8 @@ const translations = {
         calculator: "Калькулятор",
 
         aside: "Я живу в Ченстохова, Польща. Я боксер та ходжу в спортзал. Мені 18 років.",
-        resume: "Моє резюме"
+        resume: "Моє резюме",
+        footer: "&copy;2026 Єлісєєв Євгеній"
     },
     pl: {
         title: "Profil frontend developera",
@@ -121,7 +124,8 @@ const translations = {
         calculator: "Kalkulator",
 
         aside: "Mieszkam w Częstochowie. Jestem bokserem i chodzę na siłownię. Mam 18 lat.",
-        resume: "Moje CV"
+        resume: "Moje CV",
+        footer: "&copy;2026 Yelisieiev Yevhenii"
     }
 };
 
@@ -146,4 +150,5 @@ function setLanguage(lang) {
   });
 
   document.documentElement.lang = lang;
+
 }
