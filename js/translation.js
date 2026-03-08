@@ -26,6 +26,7 @@ const translations = {
         minecraft: "Minecraft Server Website",
         game: "Site with top's games",
         calculator: "Calculator",
+        testJS: "In this web site I will be testing JS",
 
         aside: "I live in Częstochowa, Poland. I'm a boxer and go to the gym. I'm 18 years old.",
         resume: "My resume"
@@ -57,6 +58,7 @@ const translations = {
         minecraft: "Сайт сервера Minecraft",
         game: "Сайт с лучшими играми",
         calculator: "Калькулятор",
+        testJS: "На этом сайте я буду тестировать JavaScript.",
         
         aside: "Я живу в Ченстохове, Польша. Я боксер и хожу в спортзал. Мне 18 лет.",
         resume: "Моё резюме"
@@ -88,6 +90,7 @@ const translations = {
         minecraft: "Веб-сайт сервера Minecraft",
         game: "Сайт з топовими іграми",
         calculator: "Калькулятор",
+        testJS: "На цьому веб-сайті я буду тестувати JS",
 
         aside: "Я живу в Ченстохова, Польща. Я боксер та ходжу в спортзал. Мені 18 років.",
         resume: "Моє резюме"
@@ -119,6 +122,7 @@ const translations = {
         minecraft: "Strona serwera Minecraft",
         game: "Strona z Gry topowe",
         calculator: "Kalkulator",
+        testJS: "Na tej stronie będę testował JS",
 
         aside: "Mieszkam w Częstochowie. Jestem bokserem i chodzę na siłownię. Mam 18 lat.",
         resume: "Moje CV"
@@ -148,4 +152,5 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
 
 }
+
 
