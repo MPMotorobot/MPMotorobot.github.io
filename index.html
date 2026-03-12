@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Beginner frontend developer profile. Skills, projects and contact information.">
     <meta name="author" content="Yelisieiev Yevhenii">
-    <meta name='freelancehunt' content='91e700fccefff19'>
     <meta property="og:title" content="Frontend Developer Portfolio">
     <meta property="og:description" content="Beginner frontend developer. Skills, projects and contacts.">
     <meta property="og:type" content="website">
@@ -17,8 +16,8 @@
 </head>
 <body>
     <header>
-       <h1 data-i18n="myName">Yelisieiev Yevhenii</h1>
-       <p data-i18n="description">Beginner Frontend Developer</p>
+       <h1 data-i18n="myName" id="text">Yelisieiev Yevhenii</h1>
+       <p data-i18n="description" id="text">Beginner Frontend Developer</p>
     </header>
        <nav class="nav">
             <button class="menu-toggle" id="menu-toggle">
@@ -37,7 +36,7 @@
                     <option value="ru">Русский</option>
                     <option value="en">English</option>
                     <option value="pl">Polski</option>
-                    <option value="ua">Українська</option>
+                    <option value="ua">Україньська</option>
                 </select>
                 </li>
             </ul>
@@ -87,21 +86,29 @@
             <article class="languages">
             <h2 data-i18n="languages">Languages</h2>
             <ul>
-                <li data-i18n="lang_en">English <strong>B1</strong></li>
+                <li data-i18n="lang_en">English  
+                    <strong><p data-i18n="b1">B1</p></strong></li>
                 <li data-i18n="lang_ua">Ukrainian <strong data-i18n="speaking">Speaking</strong></li>
                 <li data-i18n="lang_pl">Polish <strong data-i18n="speaking">Speaking</strong></li>
                 <li data-i18n="lang_ru">Russian <strong data-i18n="speaking">Speaking</strong></li>
             </ul>    
             </article>        
         </section>
-        <section class="projects card gradient-border" id="projects">
+        <section class="projects card gradient-border" id="s_projects">
             <h2 data-i18n="project_title">My Projects</h2>
-            <ol>
-                <li><a href="https://sites.google.com/view/server-maderatorworld" target="_blank" data-i18n="minecraft">Minecraft Server Website</a></li>
-                <li><a href="https://yujenix.page.gd" data-i18n="php_mysql" target="_blank">PHP and MySQL testing site</a></li>
-                <li><a href="#" data-i18n="calculator">Calculator</a></li>
-                <li><a href="https://mpmotorobot.github.io/testingJS/" data-i18n="testJS" target="_blank">In this web site I will be testing JS</a></li>
-            </ol>
+                <ol id="project">
+                    <li><a class="link_site" href="https://sites.google.com/view/server-maderatorworld" target="_blank" data-i18n="minecraft">Minecraft Server Website</a></li>
+                    <li><a class="link_site" href="https://yujenix.page.gd" data-i18n="php_mysql" target="_blank">PHP and MySQL testing site</a></li>
+                    <li><a class="link_site" href="#" data-i18n="calculator">Calculator</a></li>
+                    <li><a class="link_site" href="https://mpmotorobot.github.io/testingJS/" data-i18n="testJS" target="_blank">In this web site I will be testing JS</a></li>
+                </ol>
+                <div id="preview">
+                    <h3 id="text_preview"></h3>
+                    <img class="img_preview" src="image/preview_ms.png">
+                    <img class="img_preview" src="image/preview_php.png">
+                    <img class="img_preview" src="#">
+                    <img class="img_preview" src="image/preview_js.png">
+                </div>
         </section>
         </div>
         <aside class="aside card gradient-border">
@@ -126,18 +133,6 @@
     </footer>
     <script src="js/Script.js"></script>
     <script src="js/translation.js"></script>
+    <script src="js/preview.js"></script>
     </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
