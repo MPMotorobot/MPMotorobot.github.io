@@ -24,7 +24,7 @@ const translations = {
 
         project_title: "My Projects",
         minecraft: "Minecraft Server Website",
-        game: "Site with top's games",
+        php_mysql: "PHP and MySQL testing site",
         calculator: "Calculator",
         testJS: "In this web site I will be testing JS",
 
@@ -56,7 +56,7 @@ const translations = {
 
         project_title: "Мои проекты",
         minecraft: "Сайт сервера Minecraft",
-        game: "Сайт с лучшими играми",
+        php_mysql: "Сайт для тестирования PHP и MySQL",
         calculator: "Калькулятор",
         testJS: "На этом сайте я буду тестировать JavaScript.",
         
@@ -88,7 +88,7 @@ const translations = {
 
         project_title: "Мої проєкти",
         minecraft: "Веб-сайт сервера Minecraft",
-        game: "Сайт з топовими іграми",
+        php_mysql: "Сайт для тестування PHP та MySQL",
         calculator: "Калькулятор",
         testJS: "На цьому веб-сайті я буду тестувати JS",
 
@@ -120,7 +120,7 @@ const translations = {
 
         project_title: "Moje projekty",
         minecraft: "Strona serwera Minecraft",
-        game: "Strona z Gry topowe",
+        php_mysql: "Strona testowa PHP i MySQL",
         calculator: "Kalkulator",
         testJS: "Na tej stronie będę testował JS",
 
@@ -152,5 +152,6 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
 
 }
+
 
 
