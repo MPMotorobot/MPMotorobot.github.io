@@ -315,12 +315,23 @@ a:hover {
         align-items: center;
     }
     #skills-circle{
-        transform: scale(1.4);
+        transform: scale(1.6);
         margin-top: 100px;
         margin-right: 70px;
     }
     .dashboard{
         width: 100%;
+    }
+    #s_projects{
+        display: block;
+        position: static;
+        overflow: hidden;
+    }
+    #project{
+        width: 1000px;
+    }
+    #preview{
+        display: none;
     }
 }
 .gradient-border {
@@ -372,7 +383,6 @@ main:has(.card:hover) .card:not(:hover){
  footer::before {
     display: none !important;
 }
-
 /* I intentionally excluded footer from scroll-based navigation logic */
 #skills-circle{
     /* margin-top: 100px; */
@@ -419,6 +429,7 @@ main:has(.card:hover) .card:not(:hover){
     grid-area: left-top;
     transition: 0.3s;
 }
+
 #right-top{
     width: 100px; 
     height: 100px;
@@ -494,11 +505,61 @@ main:has(.card:hover) .card:not(:hover){
     color: black;
     pointer-events: none;
 }
+#s_projects{
+    display: grid;
+    grid-template-areas:
+    "p_header img"
+    "links    img";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    align-items: center;
+}
 
-
-
-
-
-
-
+#s_projects > h2{
+    grid-area: p_header;
+}
+#project{
+    grid-area: links;
+}
+#preview{
+    grid-area: img;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border-radius: 10px;
+}
+#preview.shows {
+    opacity: 1;
+}
+#text_preview{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2px 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+.img_preview{
+    z-index: 1;
+    position: absolute;
+    max-width: 300px;
+    max-height: 200px;
+    opacity: 0;
+    top: 40px;
+    left: 0;
+    transition: opacity 1s ease;
+    bottom: 0;
+}
+.img_preview.shows{
+    opacity: 1;
+    transform: scale(1.05);
+}
 
