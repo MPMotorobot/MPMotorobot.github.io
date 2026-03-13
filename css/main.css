@@ -563,3 +563,34 @@ main:has(.card:hover) .card:not(:hover){
     transform: scale(1.05);
 }
 
+/* CSS для модалки */
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content{
+    position: absolute;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px var(--box-shadow);
+}
+
+#modal-close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 24px;
+}
