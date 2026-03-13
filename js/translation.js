@@ -29,7 +29,12 @@ const translations = {
         testJS: "In this web site I will be testing JS",
 
         aside: "I live in Częstochowa, Poland. I'm a boxer and go to the gym. I'm 18 years old.",
-        resume: "My resume"
+        resume: "My resume",
+
+        modal_desc: "Site for minecraft server. Rules, descripton and links to owner.",
+        modal_tech: "Technologies:",
+        modal_link: "Website:",
+        open_site: "Open site!"
     },
     ru: {
         title: "Профиль фронтенд-разработчика",
@@ -61,7 +66,11 @@ const translations = {
         testJS: "На этом сайте я буду тестировать JavaScript.",
         
         aside: "Я живу в Ченстохове, Польша. Я боксер и хожу в спортзал. Мне 18 лет.",
-        resume: "Моё резюме"
+        resume: "Моё резюме",
+        modal_desc: "Сайт сервера Minecraft. Правила, описание и ссылки на владельца.",
+        modal_tech: "Технологии:",
+        modal_link: "Веб-сайт:",
+        open_site: "Открыть сайт!"
     },
     ua: {
         title: "Профіль фронтенд-розробника",
@@ -93,7 +102,11 @@ const translations = {
         testJS: "На цьому веб-сайті я буду тестувати JS",
 
         aside: "Я живу в Ченстохова, Польща. Я боксер та ходжу в спортзал. Мені 18 років.",
-        resume: "Моє резюме"
+        resume: "Моє резюме",
+        modal_desc: "Сайт для сервера майнкрафт. Правила, опис та посилання на власника.",
+        modal_tech: "Технології:",
+        modal_link: "Веб-сайт:",
+        open_site: "Відкритий сайт!"
     },
     pl: {
         title: "Profil frontend developera",
@@ -125,7 +138,11 @@ const translations = {
         testJS: "Na tej stronie będę testował JS",
 
         aside: "Mieszkam w Częstochowie. Jestem bokserem i chodzę na siłownię. Mam 18 lat.",
-        resume: "Moje CV"
+        resume: "Moje CV",
+        modal_desc: "Strona dla serwera Minecraft. Zasady, opis i linki do właściciela.",
+        modal_tech: "Technologie:",
+        modal_link: "Strona internetowa:",
+        open_site: "Otwórz witrynę!"
     }
 };
 
@@ -152,6 +169,5 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
 
 }
-
 
 
