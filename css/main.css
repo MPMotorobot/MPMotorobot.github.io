@@ -575,6 +575,8 @@ main:has(.card:hover) .card:not(:hover){
     justify-content: center;
     align-items: center;
     z-index: 9999;
+    transition: 0.3s ease;
+    opacity: 0;
 }
 
 .modal-content{
