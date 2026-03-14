@@ -74,16 +74,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 modalImg.src = project.img;
                 modalLink.href = project.url;
                 modal.style.display = "flex";
+
+                setTemiout(() => {
+                    modal.style.opacity = "1";
+                }, 10);
             }
         });
     });
 
     modalClose.addEventListener("click", () => {
-        modal.style.display = "none";
+        modal.style.opacity = "0";
+
+        setTimeout(() => {
+            modal.style.display = "none";
+        }, 300);
     });
     window.addEventListener("click", (e) => {
         if(e.target === modal) {
-            modal.style.display = "none";
+            modal.style.opacity = "0";
+
+            setTimeout(() => {
+                modal.style.display = "none";
+            }, 300)
         }
     })
 });
