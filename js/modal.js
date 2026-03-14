@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 modalLink.href = project.url;
                 modal.style.display = "flex";
 
-                setTemiout(() => {
+                setTimeout(() => {
                     modal.style.opacity = "1";
                 }, 10);
             }
