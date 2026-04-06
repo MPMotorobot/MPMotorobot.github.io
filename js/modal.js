@@ -44,6 +44,17 @@ document.addEventListener("DOMContentLoaded", () => {
             tech: "JavaScript, HTML, CSS",
             img: "./image/preview_js.png",
             url: "https://mpmotorobot.github.io/testingJS/"
+        },
+        testJSLS: {
+            desc: {
+                en: "Testing Local Storage in JS site.",
+                ru: "Тестирование локального хранилища в JavaScript-файле.",
+                ua: "Тестування локального сховища на JS-сайті.",
+                pl: "Testowanie pamięci lokalnej w witrynie JS."
+            },
+            tech: "JavaScript, HTML, CSS",
+            img: "./image/preview_js_ls.png",
+            url: "https://mpmotorobot.github.io/testingLocalStorage/"
         }
     };
 
