@@ -27,6 +27,7 @@ const translations = {
         php_mysql: "PHP and MySQL testing site",
         calculator: "Calculator",
         testJS: "In this web site I will be testing JS",
+        testJSLS: "In this website I will be testing Locale Storage in JS",
 
         aside: "I live in Częstochowa, Poland. I'm a boxer and go to the gym. I'm 18 years old.",
         resume: "My resume",
@@ -64,6 +65,7 @@ const translations = {
         php_mysql: "Сайт для тестирования PHP и MySQL",
         calculator: "Калькулятор",
         testJS: "На этом сайте я буду тестировать JavaScript.",
+        testJSLS: "На этом сайте я буду тестировать локальное хранилище в JavaScript.",
         
         aside: "Я живу в Ченстохове, Польша. Я боксер и хожу в спортзал. Мне 18 лет.",
         resume: "Моё резюме",
@@ -100,6 +102,7 @@ const translations = {
         php_mysql: "Сайт для тестування PHP та MySQL",
         calculator: "Калькулятор",
         testJS: "На цьому веб-сайті я буду тестувати JS",
+        testJSLS: "На цьому вебсайті я буду тестувати локальне сховище на JS.",
 
         aside: "Я живу в Ченстохова, Польща. Я боксер та ходжу в спортзал. Мені 18 років.",
         resume: "Моє резюме",
@@ -136,6 +139,7 @@ const translations = {
         php_mysql: "Strona testowa PHP i MySQL",
         calculator: "Kalkulator",
         testJS: "Na tej stronie będę testował JS",
+        testJSLS: "Na tej stronie będę testował pamięć lokalną w JS",
 
         aside: "Mieszkam w Częstochowie. Jestem bokserem i chodzę na siłownię. Mam 18 lat.",
         resume: "Moje CV",
