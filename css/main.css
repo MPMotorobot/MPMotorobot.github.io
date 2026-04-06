@@ -513,13 +513,17 @@ main:has(.card:hover) .card:not(:hover){
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 100px;
     align-items: center;
+    height: auto;
+    padding-top: 20px;
 }
 
 #s_projects > h2{
     grid-area: p_header;
+    padding-bottom: 50px;
 }
 #project{
     grid-area: links;
+    padding-bottom: 40px;
 }
 #preview{
     grid-area: img;
