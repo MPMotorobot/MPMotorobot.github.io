@@ -26,7 +26,7 @@ const translations = {
         minecraft: "Minecraft Server Website",
         php_mysql: "PHP and MySQL testing site",
         calculator: "Calculator",
-        testJS: "In this web site I will be testing JS",
+        testJS: "In this website I will be testing JS",
         testJSLS: "In this website I will be testing Locale Storage in JS",
 
         aside: "I live in Częstochowa, Poland. I'm a boxer and go to the gym. I'm 18 years old.",
@@ -35,7 +35,11 @@ const translations = {
         modal_desc: "Site for minecraft server. Rules, descripton and links to owner.",
         modal_tech: "Technologies:",
         modal_link: "Website:",
-        open_site: "Open site!"
+        open_site: "Open site!",
+        expert: "Expert",
+        intermediate: "Intermediate",
+        beginner: "Beginner",
+        advanced: "Advanced"
     },
     ru: {
         title: "Профиль фронтенд-разработчика",
@@ -72,7 +76,11 @@ const translations = {
         modal_desc: "Сайт сервера Minecraft. Правила, описание и ссылки на владельца.",
         modal_tech: "Технологии:",
         modal_link: "Веб-сайт:",
-        open_site: "Открыть сайт!"
+        open_site: "Открыть сайт!",
+        expert: "Эксперт",
+        intermediate: "Средний уровень",
+        beginner: "Начинающий",
+        advanced: "Продвинутый"
     },
     ua: {
         title: "Профіль фронтенд-розробника",
@@ -109,7 +117,11 @@ const translations = {
         modal_desc: "Сайт для сервера майнкрафт. Правила, опис та посилання на власника.",
         modal_tech: "Технології:",
         modal_link: "Веб-сайт:",
-        open_site: "Відкритий сайт!"
+        open_site: "Відкритий сайт!",
+        expert: "Експерт",
+        intermediate: "Середній рівень",
+        beginner: "Початковий",
+        advanced: "Просунутий"
     },
     pl: {
         title: "Profil frontend developera",
@@ -146,7 +158,11 @@ const translations = {
         modal_desc: "Strona dla serwera Minecraft. Zasady, opis i linki do właściciela.",
         modal_tech: "Technologie:",
         modal_link: "Strona internetowa:",
-        open_site: "Otwórz witrynę!"
+        open_site: "Otwórz witrynę!",
+        expert: "Ekspert",
+        intermediate: "Śr. zaawansowany",
+        beginner: "Początkujący",
+        advanced: "Zaawansowany"
     }
 };
 
